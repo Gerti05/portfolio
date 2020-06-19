@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Rum+Raisin&display=swap");
+body {
+  background-color: #f1d302;
+}
+
+article {
+  width: 36em;
+  margin: 0 auto;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+a.source-btn.btn.btn-primary,
+a.source-btn.btn.btn-primary:active {
+  background-color: #fdfffc;
+  color: #f73f52;
+  border-color: #fdfffc;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+button.intro-p.float-center.btn.btn-primary {
+  background-color: #f73f52;
+  color: #fdfffc;
+  border-color: #f73f52;
+}
+
+a.nav-link {
+  color: #fdfffc;
+  padding: 5px;
+}
+
+.nav {
+  background-color: #f1d302;
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  padding-top: 1%;
+}
+
+.separator {
+  margin-top: 5px;
+  color: #161925;
+}
+
+.avatar {
+  margin-top: 14vh;
+}
+
+.intro {
+  margin-top: 5vh;
+}
+
+.intro-h {
+  font-family: "Audiowide", cursive;
+  font-size: 45px;
+  letter-spacing: 0.1em;
+  color: #f73f52;
+}
+
+.intro-p {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  color: #161925;
+}
+
+.project-h {
+  font-family: "Audiowide", cursive;
+  letter-spacing: 0.05em;
+  color: #fdfffc;
+  font-size: 1.3vw;
+}
+
+.project-p {
+  font-family: "Rum Raisin", sans-serif;
+  letter-spacing: 0.05em;
+  color: #f73f52;
+  font-size: 1vw;
+}
+
+.icons {
+  width: 90px;
+  height: 100%;
+  padding-top: 10px;
+  margin: 0 15px;
+}
+
+.icon-p,
+.icon-p2 {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin: 0 25px;
+}
+
+.icon-p2 {
+  margin: 0 40px;
+  margin-bottom: 3%;
+}
+
+.work {
+  margin-top: 3%;
+}
+
+.project-detail-background {
+  background-color: #fdfffc;
+  margin-top: -18px;
+  width: 100%;
+  height: 75px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.project-icons-margin {
+  margin-top: 2%;
+}
+
+.media-link {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.media-link.active {
+  color: #fdfffc;
+}
+
+.media-link-icons:hover {
+  color: #f73f52;
+  -webkit-transition: color 400ms linear;
+  transition: color 400ms linear;
+}
+
+.resumejpg {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  background-color: #161925;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.container1:hover .overlay {
+  width: 40%;
+  border-radius: 5px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .project-h {
+    font-family: "Audiowide", cursive;
+    letter-spacing: 0.05em;
+    color: #fdfffc;
+    font-size: 2vw;
+  }
+  .project-p {
+    font-family: "Rum Raisin", sans-serif;
+    letter-spacing: 0.05em;
+    color: #f73f52;
+    font-size: 2vw;
+  }
+  a.source-btn.btn.btn-primary,
+  a.source-btn.btn.btn-primary:active {
+    background-color: #fdfffc;
+    color: #f73f52;
+    border-color: #fdfffc;
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=index.css.map */
