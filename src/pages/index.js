@@ -23,10 +23,10 @@ import {
   faReact,
   faCss3Alt,
   faGithubSquare,
-  faGlobe,
-  faVue
 } from "@fortawesome/free-brands-svg-icons"
-
+import {
+  faGlobe,
+} from "@fortawesome/free-solid-svg-icons"
 import Responsive from "../../public/animat-essential/responsive/animat-responsive-color.gif"
 import Customize from "../../public/animat-essential/customize/animat-customize-color.gif"
 import Optimized from "../../public/animat-essential/line-chart/animat-linechart-color.gif"
