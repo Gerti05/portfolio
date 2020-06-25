@@ -418,7 +418,7 @@ const IndexPage = () => {
               />
               <div className="overlay">
                 <div className="text">
-                  <h4 className="project-h mb-3 text-center">StockEZ App</h4>
+                  <h4 className="project-h mb-3 text-center">StockEZe App</h4>
                   <p className="text-center project-p mb-4">
                     This website uses an api{<br />} to give the best metrics
                     for
