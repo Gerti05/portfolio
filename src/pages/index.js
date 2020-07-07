@@ -55,8 +55,8 @@ export default class IndexPage extends Component {
         githubLink: "https://github.com/Gerti05/covidData",
         websiteLink: "https://covidworldata.com/",
         buttonIcons: [faGithubSquare, faGlobe],
-        icons: [faBootstrap, faJsSquare, faReact],
-        iconColor: ["#5c3e86", "#f7df1e", "#00d8ff"],
+        icons: [faReact, faBootstrap, faJsSquare],
+        iconColor: ["#00d8ff", "#5c3e86", "#f7df1e"],
         iconImg: [Redux],
         text:
           "Website displaying Covid-19 data.",
