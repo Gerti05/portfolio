@@ -13,6 +13,7 @@ import SpaceX from "../../public/projectPics/img/spaceX.jpg"
 import Stock from "../../public/projectPics/img/stockApp.jpg"
 import Apollo from "../../public/projectPics/img/apollo.png"
 import GraphQL from "../../public/projectPics/img/graphQL.png"
+import Redux from "../../public/projectPics/img/redux.png"
 import Vue from "../../public/projectPics/img/vue.png"
 import Vuetify from "../../public/projectPics/img/vuetify.png"
 
@@ -54,8 +55,9 @@ export default class IndexPage extends Component {
         githubLink: "https://github.com/Gerti05/covidData",
         websiteLink: "https://covidworldata.com/",
         buttonIcons: [faGithubSquare, faGlobe],
-        icons: [faBootstrap, faCss3Alt, faJsSquare, faReact],
-        iconColor: ["#5c3e86", "#2965f1", "#f7df1e", "#00d8ff"],
+        icons: [faBootstrap, faJsSquare, faReact],
+        iconColor: ["#5c3e86", "#f7df1e", "#00d8ff"],
+        iconImg: Redux,
         text:
           "Website displaying Covid-19 data.",
       },
@@ -191,6 +193,7 @@ export default class IndexPage extends Component {
                   buttonIcons={this.state[1].buttonIcons}
                   icons={this.state[1].icons}
                   iconColor={this.state[1].iconColor}
+                  iconImg={this.state[1].iconImg}
                   text={this.state[1].text}
                 />
               </Col>
