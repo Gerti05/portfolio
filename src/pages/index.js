@@ -57,7 +57,7 @@ export default class IndexPage extends Component {
         buttonIcons: [faGithubSquare, faGlobe],
         icons: [faBootstrap, faJsSquare, faReact],
         iconColor: ["#5c3e86", "#f7df1e", "#00d8ff"],
-        iconImg: Redux,
+        iconImg: [Redux],
         text:
           "Website displaying Covid-19 data.",
       },
