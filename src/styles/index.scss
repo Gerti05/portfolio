@@ -53,7 +53,6 @@ a.nav-link {
 
 .intro {
   margin-top: 5vh;
-  
 }
 
 .intro-h {
@@ -153,26 +152,37 @@ a.nav-link {
   bottom: 0;
   left: 15px;
   right: 0;
-  background-color: #161925;
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: 0.5s ease;
 }
 
-.container1:hover .overlay {
-  width: 40%;
-  border-radius: 5px;
+.overlay2 {
+  position: absolute;
+  bottom: 56px;
+  left: 15px;
+  right: 0;
+  overflow: hidden;
+  background-color: #161925;
+  width: 0;
+  height: 83.5%;
+  opacity: .7;
+  transition: 0.5s ease;
 }
 
 .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
+  transition: 0.5s ease;
+}
+
+.container1:hover .overlay {
+  width: 95%;
+  border-radius: 5px;
+}
+
+.container1:hover .overlay2 {
+  width: 95%;
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -182,7 +192,7 @@ a.nav-link {
     color: #fdfffc;
     font-size: 1vw;
   }
-  
+
   .project-p {
     font-family: "Rum Raisin", sans-serif;
     letter-spacing: 0.05em;
@@ -191,13 +201,13 @@ a.nav-link {
   }
 
   a.source-btn.btn.btn-primary,
-a.source-btn.btn.btn-primary:active {
-  background-color: #fdfffc;
-  color: #f73f52;
-  border-color: #fdfffc;
-  font-size: 1vw;
-  font-weight: 600;
-}
+  a.source-btn.btn.btn-primary:active {
+    background-color: #fdfffc;
+    color: #f73f52;
+    border-color: #fdfffc;
+    font-size: 1vw;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -207,7 +217,7 @@ a.source-btn.btn.btn-primary:active {
     color: #fdfffc;
     font-size: 1vw;
   }
-  
+
   .project-p {
     font-family: "Rum Raisin", sans-serif;
     letter-spacing: 0.05em;
@@ -216,16 +226,14 @@ a.source-btn.btn.btn-primary:active {
   }
 
   a.source-btn.btn.btn-primary,
-a.source-btn.btn.btn-primary:active {
-  background-color: #fdfffc;
-  color: #f73f52;
-  border-color: #fdfffc;
-  font-size: 1.5vw;
-  font-weight: 600;
+  a.source-btn.btn.btn-primary:active {
+    background-color: #fdfffc;
+    color: #f73f52;
+    border-color: #fdfffc;
+    font-size: 1.5vw;
+    font-weight: 600;
+  }
 }
-}
-
-
 
 @media only screen and (max-width: 700px) {
   .project-h {
@@ -234,7 +242,7 @@ a.source-btn.btn.btn-primary:active {
     color: #fdfffc;
     font-size: 2.5vw;
   }
-  
+
   .project-p {
     font-family: "Rum Raisin", sans-serif;
     letter-spacing: 0.05em;
@@ -243,13 +251,11 @@ a.source-btn.btn.btn-primary:active {
   }
 
   a.source-btn.btn.btn-primary,
-a.source-btn.btn.btn-primary:active {
-  background-color: #fdfffc;
-  color: #f73f52;
-  border-color: #fdfffc;
-  font-size: 2.5vw;
-  font-weight: 600;
+  a.source-btn.btn.btn-primary:active {
+    background-color: #fdfffc;
+    color: #f73f52;
+    border-color: #fdfffc;
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
 }
-}
-
-
