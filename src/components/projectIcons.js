@@ -31,9 +31,9 @@ export default function projectIcons(props) {
       <>
         {props.iconImg.map(icon => (
           <Image
-            className="project-icons-margin mt-4 img-fluid"
+            className="project-icons-margin2 img-fluid"
             src={icon}
-            style={{ width: "35px", height: "35px", color: "red" }}
+            style={{ width: "2em", height: "2em" }}
           />
         ))}
       </>
@@ -43,9 +43,9 @@ export default function projectIcons(props) {
       <>
         {props.iconImg.map(icon => (
           <Image
-            className="project-icons-margin mt-4 img-fluid"
+            className="project-icons-margin2 img-fluid"
             src={icon}
-            style={{ width: "35px", height: "35px", color: "red" }}
+            style={{ width: "2em", height: "2em" }}
           />
         ))}
         {props.icons.map((icon, index) => (

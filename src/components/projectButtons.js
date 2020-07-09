@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Button } from "react-bootstrap"
+import { Button, ButtonGroup } from "react-bootstrap"
 import ProjectIcons from "./projectIcons"
 
 export default function projectButtons(props) {
@@ -8,8 +8,7 @@ export default function projectButtons(props) {
     return (
       <div className="d-flex justify-content-center">
         <Button
-          variant="danger"
-          className="mt-3"
+          className="mt-3 codeBtn"
           href={props.githubLink}
           target="_blank"
         >
@@ -23,8 +22,7 @@ export default function projectButtons(props) {
     return (
       <div className="d-flex justify-content-center">
         <Button
-          variant="dark"
-          className=" mt-3"
+          className=" mt-3 webBtn"
           href={props.websiteLink}
           target="_blank"
         >
@@ -38,9 +36,9 @@ export default function projectButtons(props) {
     return (
       <div>
         <div className="d-flex justify-content-center">
-          <Button
-            variant="warning"
-            className="mt-3 mr-2"
+        <ButtonGroup vertical>
+        <Button
+            className="mt-3 mr-2 codeBtn"
             href={props.githubLink}
             target="_blank"
           >
@@ -49,8 +47,7 @@ export default function projectButtons(props) {
             <ProjectIcons buttonIcons={props.buttonIcons[0]} />
           </Button>
           <Button
-            variant="light"
-            className="mt-3"
+            className="mt-3 webBtn"
             href={props.websiteLink}
             target="_blank"
           >
@@ -58,6 +55,8 @@ export default function projectButtons(props) {
             Website
             <ProjectIcons buttonIcons={props.buttonIcons[1]} />
           </Button>
+</ButtonGroup>
+         
         </div>
       </div>
     )

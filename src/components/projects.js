@@ -7,6 +7,7 @@ import ProjectButtons from "./projectButtons"
 export default function projects(props) {
   return (
     <div>
+      <div class="overlayContainer">
       <Image
         className="image"
         rounded
@@ -16,15 +17,17 @@ export default function projects(props) {
       />
       <div className="overlay2"></div>
       <div className="overlay">
-        <div className="mt-5 text">
-          <h4 className="text-center project-h">{props.name}</h4>
-          <p className="text-center mb-2 project-p">{props.text}</p>
-        </div>
-        <ProjectButtons
+        <h4 className="text-center project-h">{props.name}</h4>
+        <p className="text-center mb-2 project-p">{props.text}</p>
+        
+    <ProjectButtons
           githubLink={props.githubLink}
           buttonIcons={props.buttonIcons}
           websiteLink={props.websiteLink}
         />
+    
+        
+      </div>
       </div>
       <div className="project-detail-background d-flex justify-content-around">
         <ProjectIcons
