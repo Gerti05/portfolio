@@ -19,7 +19,7 @@ export default function projectIcons(props) {
           <FontAwesomeIcon
             key={index}
             icon={icon}
-            className="project-icons-margin img-fluid"
+            className="project-icons-margin img-fluid fa-w-24"
             size="2x"
             style={{ color: props.iconColor[index] }}
           />
@@ -31,7 +31,7 @@ export default function projectIcons(props) {
       <>
         {props.iconImg.map(icon => (
           <Image
-            className="project-icons-margin2 img-fluid"
+            className="project-icons-margin img-fluid"
             src={icon}
             style={{ width: "2em", height: "2em" }}
           />
@@ -43,7 +43,7 @@ export default function projectIcons(props) {
       <>
         {props.iconImg.map(icon => (
           <Image
-            className="project-icons-margin2 img-fluid"
+            className="project-icons-margin img-fluid"
             src={icon}
             style={{ width: "2em", height: "2em" }}
           />
@@ -52,7 +52,7 @@ export default function projectIcons(props) {
           <FontAwesomeIcon
             key={index}
             icon={icon}
-            className="project-icons-margin img-fluid"
+            className="project-icons-margin img-fluid fa-w-24"
             size="2x"
             style={{ color: props.iconColor[index] }}
           />

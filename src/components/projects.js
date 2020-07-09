@@ -29,12 +29,15 @@ export default function projects(props) {
         
       </div>
       </div>
-      <div className="project-detail-background d-flex justify-content-around">
+      <div className="project-detail-background">
+        <div className="d-flex justify-content-around">
         <ProjectIcons
           icons={props.icons}
           iconColor={props.iconColor}
           iconImg={props.iconImg}
         />
+        </div>
+        
       </div>
     </div>
   )
