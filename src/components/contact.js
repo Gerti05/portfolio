@@ -39,7 +39,7 @@ const Contact = () => {
           />
         </Form.Group>
         <Button className="webBtn float-center" type="submit">
-          Submit<FontAwesomeIcon className="ml-1" size="sm" icon={faArrowCircleRight} />
+          Submit<FontAwesomeIcon className="ml-1" size="lg" icon={faArrowCircleRight} />
         </Button>
       </Form>
     </div>
