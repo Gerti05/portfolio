@@ -38,8 +38,8 @@ const Contact = () => {
             placeholder="Your Message"
           />
         </Form.Group>
-        <Button className="webBtn float-center" type="submit">
-          Submit<FontAwesomeIcon className="ml-1" size="lg" icon={faArrowCircleRight} />
+        <Button className="webBtn" type="submit">
+          Submit<FontAwesomeIcon className="ml-1 mt-1" size="lg" icon={faArrowCircleRight} />
         </Button>
       </Form>
     </div>
