@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { Helmet } from "react-helmet"
 import Avatar from "../components/avatar"
 
-import { Row, Col } from "react-bootstrap"
+import { Row, Col, Container } from "react-bootstrap"
 
 import Summer1 from "../../public/projectPics/img/PurpleSummer1.jpg"
 import Monster from "../../public/projectPics/img/monsterGame.jpg"
@@ -46,8 +46,7 @@ export default class IndexPage extends Component {
         buttonIcons: faGithubSquare,
         icons: [faBootstrap, faHtml5, faSass, faJsSquare],
         iconColor: ["#5c3e86", "#ef652a", "#cd6799", "#f7df1e"],
-        text:
-          "Landing page for a fictional ice cream company.",
+        text: "Landing page for a fictional ice cream company.",
       },
       {
         name: "Covid 19 Data",
@@ -58,8 +57,7 @@ export default class IndexPage extends Component {
         icons: [faReact, faBootstrap, faJsSquare],
         iconColor: ["#00d8ff", "#5c3e86", "#f7df1e"],
         iconImg: [Redux],
-        text:
-          "Website displaying Covid-19 data.",
+        text: "Website displaying Covid-19 data.",
       },
       {
         name: "Quote Generator",
@@ -68,8 +66,7 @@ export default class IndexPage extends Component {
         buttonIcons: faGithubSquare,
         icons: [faBootstrap, faHtml5, faSass, faJsSquare, faReact],
         iconColor: ["#5c3e86", "#ef652a", "#cd6799", "#f7df1e", "#00d8ff"],
-        text:
-          "Random quote generator that you can tweet.",
+        text: "Random quote generator that you can tweet.",
       },
       {
         name: "Monster Game",
@@ -80,8 +77,7 @@ export default class IndexPage extends Component {
         icons: [faCss3Alt],
         iconColor: ["#2965f1"],
         iconImg: [Vue, Vuetify],
-        text:
-          "The Monster Game is a quasi fighting game.",
+        text: "The Monster Game is a quasi fighting game.",
       },
       {
         name: "SpaceX App",
@@ -92,8 +88,7 @@ export default class IndexPage extends Component {
         icons: [faBootstrap, faReact],
         iconColor: ["#5c3e86", "#00d8ff"],
         iconImg: [Apollo, GraphQL],
-        text:
-          "Uses SpaceX api to give details about it's rocket launches.",
+        text: "Uses SpaceX api to give details about it's rocket launches.",
       },
       {
         name: "StockEZe App",
@@ -165,6 +160,7 @@ export default class IndexPage extends Component {
             </p>
           </div>
 
+          
           <div className="mt-5 text-center">
             <h1 className="intro-h">Projects</h1>
           </div>
