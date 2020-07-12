@@ -1,6 +1,9 @@
 import React from "react"
 import { Col, Form, Button } from "react-bootstrap"
 
+import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 const Contact = () => {
   return (
     <div id="form">
@@ -35,8 +38,8 @@ const Contact = () => {
             placeholder="Your Message"
           />
         </Form.Group>
-        <Button className="intro-p float-center" type="submit">
-          Submit
+        <Button className="webBtn float-center" type="submit">
+          Submit<FontAwesomeIcon className="ml-1" size="sm" icon={faArrowCircleRight} />
         </Button>
       </Form>
     </div>
