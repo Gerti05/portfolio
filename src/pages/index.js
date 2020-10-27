@@ -116,7 +116,39 @@ export default class IndexPage extends Component {
               href: `${favicon100}`,
             },
           ]}
-        ></Helmet>
+        >
+          <title>Portfolio</title>
+          <meta
+            name="description"
+            content="This is my portfolio website and it was created with React and Gatsby."
+          />
+          Facebook Meta Tags
+          <meta property="og:url" content="http://fiivemedia.com" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Portfolio" />
+          <meta
+            property="og:description"
+            content="This is my portfolio website and it was created with React and Gatsby."
+          />
+          <meta
+            property="og:image"
+            content="https://i.ibb.co/FmH55x4/Portfolio.png"
+          />
+          Twitter Meta Tags
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="fiivemedia.com" />
+          <meta property="twitter:url" content="http://fiivemedia.com" />
+          <meta name="twitter:title" content="Portfolio" />
+          <meta
+            name="twitter:description"
+            content="This is my portfolio website and it was created with React and Gatsby."
+          />
+          <meta
+            name="twitter:image"
+            content="https://i.ibb.co/FmH55x4/Portfolio.png"
+          />
+          Meta Tags Generated via https://www.opengraph.xyz
+        </Helmet>
         <div className="text-center m-0 flex-column">
           <Avatar />
         </div>
@@ -160,7 +192,6 @@ export default class IndexPage extends Component {
             </p>
           </div>
 
-          
           <div className="mt-5 text-center">
             <h1 className="intro-h">Projects</h1>
           </div>
