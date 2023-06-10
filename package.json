@@ -21,7 +21,7 @@
     "and": "0.0.3",
     "avataaars": "^1.2.1",
     "bootstrap": "^4.3.1",
-    "gatsby": "^2.29.2",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.2",
     "gatsby-plugin-react-helmet": "^3.1.0",
