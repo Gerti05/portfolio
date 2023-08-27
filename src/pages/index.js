@@ -101,17 +101,6 @@ export default class IndexPage extends Component {
         text:
           "Gives the best metrics for picking stocks without unneeded info.",
       },
-      {
-        name: "MailMoreLV Website",
-        image: MailMore,
-        githubLink: "https://github.com/Gerti05/MailMoreLV",
-        websiteLink: "https://mailmorelv.com/",
-        buttonIcons: [faGithubSquare, faGlobe],
-        icons: [faBootstrap, faReact, faCss3Alt],
-        iconColor: ["#5c3e86", "#00d8ff", "#2965f1"],
-        text:
-          "A three page website created using Gatsby for a virtual mail business.",
-      }
     ]
   }
 
