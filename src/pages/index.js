@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { Helmet } from "react-helmet"
 import Avatar from "../components/avatar"
 
-import { Row, Col, Container } from "react-bootstrap"
+import { Row, Col } from "react-bootstrap"
 
 import Summer1 from "../../public/projectPics/img/PurpleSummer1.jpg"
 import Monster from "../../public/projectPics/img/monsterGame.jpg"
@@ -11,6 +11,7 @@ import Quote from "../../public/projectPics/img/Quotes.jpg"
 import Covid19 from "../../public/projectPics/img/covidworldata.jpg"
 import SpaceX from "../../public/projectPics/img/spaceX.jpg"
 import Stock from "../../public/projectPics/img/stockApp.jpg"
+import MailMore from "../../public/projectPics/img/mailmorelv.jpg"
 import Apollo from "../../public/projectPics/img/apollo.png"
 import GraphQL from "../../public/projectPics/img/graphQL.png"
 import Redux from "../../public/projectPics/img/redux.png"
@@ -36,8 +37,7 @@ import favicon100 from "../../public/projectPics/img/favicon.png"
 import Projects from "../components/projects"
 
 export default class IndexPage extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
     this.state = [
       {
         name: "Purple Summer",
@@ -101,6 +101,17 @@ export default class IndexPage extends Component {
         text:
           "Gives the best metrics for picking stocks without unneeded info.",
       },
+      {
+        name: "MailMoreLV Website",
+        image: MailMore,
+        githubLink: "https://github.com/Gerti05/MailMoreLV",
+        websiteLink: "https://mailmorelv.com/",
+        buttonIcons: [faGithubSquare, faGlobe],
+        icons: [faBootstrap, faReact, faCss3Alt],
+        iconColor: ["#5c3e86", "#00d8ff", "#2965f1"],
+        text:
+          "A three page website created using Gatsby for a virtual mail business.",
+      }
     ]
   }
 
@@ -275,14 +286,14 @@ export default class IndexPage extends Component {
               <Col xs={12} s={12} md={6} lg={6} className="work container1">
                 {" "}
                 <Projects
-                  name={this.state[5].name}
-                  image={this.state[5].image}
-                  githubLink={this.state[5].githubLink}
-                  websiteLink={this.state[5].websiteLink}
-                  buttonIcons={this.state[5].buttonIcons}
-                  icons={this.state[5].icons}
-                  iconColor={this.state[5].iconColor}
-                  text={this.state[5].text}
+                  name={this.state[6].name}
+                  image={this.state[6].image}
+                  githubLink={this.state[6].githubLink}
+                  websiteLink={this.state[6].websiteLink}
+                  buttonIcons={this.state[6].buttonIcons}
+                  icons={this.state[6].icons}
+                  iconColor={this.state[6].iconColor}
+                  text={this.state[6].text}
                 />
               </Col>
             </Row>
